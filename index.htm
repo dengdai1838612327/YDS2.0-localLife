@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=0">
+</head>
+<body>
+<div class="topfixed">
+  <header class="header"> <span class="search-box"><i class="sprites"></i></span> <a href="###" class="msg"> <i class="sprites"></i> <span>消息</span> </a> </header>
+</div>
+<div class="content" style="padding:0 0 4rem;">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/t_banner.jpg"></div>
+      <div class="swiper-slide"><img src="images/t_banner.jpg"></div>
+      <div class="swiper-slide"><img src="images/t_banner.jpg"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <div class="swiper-container1">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide index-category">
+        <ul class="ul-list">
+          <li> <a href="/"> <i><img src="images/1.png" width="40" height="40"></i> <span>数码</span> </a> </li>
+          <li> <a href="/"> <i><img src="images/2.png" width="40" height="40"></i> <span>家电</span> </a> </li>
+          <li> <a href="/"> <i><img src="images/3.png" width="40" height="40"></i> <span>钟表</span> </a> </li>
+          <li> <a href="/"> <i><img src="images/4.png" width="40" height="40"></i> <span>箱包</span> </a> </li>
+          <li> <a href="/"> <i><img src="images/5.png" width="40" height="40"></i> <span>运动</span> </a> </li>
+          <li> <a href="/"> <i><img src="images/6.png" width="40" height="40"></i> <span>护肤</span> </a> </li>
+          <li> <a href="/"> <i><img src="images/7.png" width="40" height="40"></i> <span>家居</span> </a> </li>
+          <li> <a href="/"> <i><img src="images/8.png" width="40" height="40"></i> <span>服装</span> </a> </li>
+          <li> <a href="/"> <i><img src="images/9.png" width="40" height="40"></i> <span>厨房</span> </a> </li>
+          <li> <a href="/"> <i><img src="images/more.png" width="40" height="40"></i><span>更多</span></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="notice"> <i class="news_img"></i>
+    <div class="t-news" id="t-news"> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank"><em>NEW</em>【公告】关于商城因春节假期延迟发货及其它影响的通知1</a> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank"><em>NEW</em>【公告】关于商城因春节假期延迟发货及其它影响的通知2</a> <a href="/" title="【公告】关于商城因春节假期延迟发货及其它影响的通知" target="_blank"><em>NEW</em>【公告】关于商城因春节假期延迟发货及其它影响的通知3</a> </div>
+    <script type="text/javascript">
+                var box = document.getElementById("t-news"), can = true;
+                box.innerHTML += box.innerHTML;
+                box.onmouseover = function () { can = false };
+                box.onmouseout = function () { can = true };
+                new function () {
+                    var stop = box.scrollTop % 30 == 0 && !can;
+                    if (!stop) box.scrollTop == parseInt(box.scrollHeight / 2) ? box.scrollTop = 0 : box.scrollTop++;
+                    setTimeout(arguments.callee, box.scrollTop % 30 ? 10 : 2000);
+                };
+            </script> 
+  </div>
+  <div class="floor bgfff">
+    <div class="floor-item clearfix">
+      <div class="bdr-l">
+        <div class="title-wrap  clearfix"><i class="sprites"></i><strong>特价秒杀</strong>
+          <div class="seckill-timer"><span role="h">00</span><span class="dot">:</span><span role="m">32</span><span class="dot">:</span><span role="s">37</span></div>
+          <a class="more">更多</a> </div>
+        <div class="bot-wrap clearfix"> <a href="###"><img src="images/150_1.png"></a> <a href="###"><img src="images/150_1.png"></a> </div>
+      </div>
+      <div class="bdr-r">
+        <div class="title-wrap  clearfix"><i class="sprites"></i><strong>优品抢购</strong>
+          <div class="seckill-timer"><em>限时特卖</em></div>
+          <a class="more">更多</a> </div>
+        <div class="bot-wrap clearfix"> <a href="###"><img src="images/150_1.png"></a> <a href="###"><img src="images/150_1.png"></a> </div>
+      </div>
+    </div>
+    <div class="floor-item clearfix">
+      <div class="bdr-l">
+        <div class="title-wrap new-pro  clearfix"><i class="sprites"></i><strong>新品发布</strong>
+          <div class="seckill-timer"><em>新品买买买</em></div>
+        </div>
+        <div class="bot-wrap clearfix"> <a href="###"><img src="images/150_1.png"></a> <a href="###"><img src="images/150_1.png"></a> </div>
+      </div>
+      <div class="bdr-r">
+        <div class="title-wrap fx-good-stuff  clearfix"><i class="sprites"></i><strong>发现好货</strong>
+          <div class="seckill-timer"><em>增添生活色彩</em></div>
+        </div>
+        <div class="bot-wrap clearfix"> <a href="###"><img src="images/150_1.png"></a> <a href="###"><img src="images/150_1.png"></a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="floor">
+    <div class="floor-item ">
+      <div class="slider-wrapper"><a href="###"><img src="images/lb2.png"></a></div>
+    </div>
+  </div>
+  <div class="floor">
+    <div class="horizontal-view"> 特色推荐 </div>
+    <div class="itemlist">
+      <div class="adv01">
+        <div class="adv02"> <a href="/"><img src="images/370x140_1.jpg"> </a>
+          <div class="adv03"><a href="/">
+            <p><span>热带水果果仁燕麦片</span><em>热销7万双</em></p>
+            <img src="images/750_1.jpg"> </a><a href="/">
+            <p><span>热带水果果仁燕麦片</span><em>热销7万双</em></p>
+            <img src="images/750_1.jpg"> </a></div>
+        </div>
+        <div class="adv02"> <a href="/"><img src="images/370x140_2.jpg"> </a>
+          <div class="adv03 "><a href="/">
+            <p><span>热带水果果仁燕麦片</span><em>热销7万双</em></p>
+            <img src="images/750_1.jpg"> </a><a href="/">
+            <p><span>热带水果果仁燕麦片</span><em>热销7万双</em></p>
+            <img src="images/750_1.jpg"> </a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="bar bar-tab footer"> <a class="tab-item tab1 cur" href="#"> <i class="sprites"></i> <span class="tab-label">首页</span> </a> <a class="tab-item tab2" href="#"> <i class="sprites"></i> <span class="tab-label">分类</span> </a> <a class="tab-item tab3" href="#"> <i class="sprites"></i> <span class="tab-label">发现</span> </a> <a class="tab-item tab4" href="#"> <i class="sprites"></i> <span class="tab-label">购物车</span> </a> <a class="tab-item tab5" href="#"> <i class="sprites"></i> <span class="tab-label">我的</span> </a> </nav>
+<script src="js/swiper.min.js"></script> 
+<script language="javascript">
+var mySwiper = new Swiper('.swiper-container',{
+pagination : '.swiper-pagination',
+uniqueNavElements :"true",
+autoplay: 2000,//可选选项，自动滑动
+})
+</script>
+</body>
+</html>

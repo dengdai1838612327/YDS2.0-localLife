@@ -1,0 +1,1869 @@
+﻿@charset "utf-8";
+/*首页特价秒杀样式*/
+.floor {
+	width: 100%;
+	margin-top: 5px;
+}
+.slider-wrapper {
+	margin: 0 auto;
+	width: 96%;
+}
+.bdr-l {
+	width: 50%;
+	float: left;
+}
+.bdr-l .title-wrap {
+	height: 36px;
+	overflow: hidden;
+	padding: 8px 0 0 8px;
+	width: 100%;
+}
+.bdr-l .title-wrap i {
+	background-position: -33px -97px;
+	float: left;
+	height: 21px;
+	width: 20px;
+}
+.bdr-l .title-wrap strong {
+	font-family: 黑体;
+	float: left;
+	font-size: 15px;
+	color: #FF3A4C;
+	font-weight: 400;
+	margin: 0 3px;
+}
+.title-wrap .more {
+	color: #999;
+	float: left;
+	line-height: 27px;
+	margin: 0 0 0 5px;
+}
+.seckill-timer {
+	float: left;
+	overflow: hidden;
+}
+.seckill-timer span {
+	background: #333 none repeat scroll 0 0;
+	border-radius: 2px;
+	color: #fff;
+	float: left;
+	font-size: 10px;
+	height: 18px;
+	line-height: 18px;
+	margin: 2px 0 0;
+	text-align: center;
+	width: 18px;
+}
+.seckill-timer span.dot {
+	width: 5px;
+	font-size: 14px;
+	line-height: 14px;
+	background: none;
+	border-radius: 0;
+	color: #333;
+}
+.seckill-timer a.more {
+	font-size: 10px;
+	color: #999;
+}
+.slider-wrapper img {
+	display: block;
+	line-height: 1;
+	width: 100%;
+	height: auto;
+}
+.horizontal-view {
+	font-size: 14px;
+	color: #f93;
+	font-weight: 700;
+	height: 24px;
+	line-height: 24px;
+	width: 100%;
+	text-align: center;
+}
+.adv01 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	display: flex;
+	margin: 1.5% auto 0;
+	overflow: hidden;
+	padding: 0 .5% 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.adv01 .adv02 {
+	line-height: 1;
+	margin: 0 .5% 0 0;
+	display: block;
+	box-flex: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-o-box-flex: 1;
+	flex: 1;
+}
+.adv01 img {
+	display: block;
+	height: auto;
+	line-height: 1;
+	width: 100%;
+}
+.adv02:nth-child(2n+0), .adv03 a:nth-child(2n+0) {
+	margin-right: 0;
+}
+.adv03 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	display: flex;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.adv03 a {
+	margin-right: .6%;
+	background: #fff;
+}
+.adv01 p {
+	color: #666;
+	height: 45px;
+	line-height: 1.4;
+	overflow: hidden;
+	padding: 5px 0 0 5px;
+	text-align: left;
+}
+.adv01 a span {
+	display: block;
+	height: 18px;
+	overflow: hidden;
+	width: 97%;
+}
+.adv01 a em {
+	color: #f60;
+}
+.adv03 img {
+	margin: 0 auto;
+	width: 90%;
+}
+.bdr-r {
+	width: 50%;
+	float: right;
+}
+.bdr-r .title-wrap {
+	height: 36px;
+	overflow: hidden;
+	padding: 8px 0 0 20px;
+	width: 100%;
+}
+.bdr-r .title-wrap i {
+	background-position: -82px -97px;
+	float: left;
+	height: 21px;
+	width: 15px;
+}
+.bdr-r .title-wrap strong {
+	font-family: 黑体;
+	float: left;
+	font-size: 15px;
+	color: #06c;
+	font-weight: 400;
+	margin: 0 3px;
+}
+.bdr-r .title-wrap .more {
+	color: #999;
+	float: right;
+	line-height: 27px;
+}
+.bdr-r .seckill-timer em {
+	float: left;
+	margin-top: 2px;
+}
+.bot-wrap {
+	width: 100%;
+	overflow: hidden;
+}
+.bot-wrap a {
+	width: 50%;
+	text-align: center;
+	float: left;
+	display: block;
+}
+.bot-wrap a img {
+	width: 100%;
+	height: auto;
+}
+.bdr-l .new-pro i {
+	background-position: -205px -212px;
+	float: left;
+	height: 21px;
+	width: 20px;
+}
+.bdr-l .new-pro em {
+	float: left;
+	margin-top: 2px;
+}
+.bdr-l .new-pro strong {
+	color: #f60;
+	float: left;
+	font-family: 黑体;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 0 3px;
+}
+.bdr-r .fx-good-stuff i {
+	background-position: -254px -30px;
+	float: left;
+	height: 20px;
+	width: 21px;
+}
+.bdr-r .fx-good-stuff strong {
+	color: #C39;
+	float: left;
+	font-family: 黑体;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 0 3px;
+}
+/*秒杀、抢购列表页*/
+.list dl dt {
+	background-color: #666;
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.list dl dt h5 {
+	float: left;
+	width: 35%;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 5px;
+	line-height: 30px;
+}
+.list dl dt .time {
+	float: right;
+	margin-right: 5px;
+	line-height: 30px;
+}
+.list dl dt .time em {
+	background-color: #333;
+	padding: 3px;
+	border-radius: 3px;
+}
+.list dl dt .start-time {
+	float: left;
+	color: #fff;
+	line-height: 30px;
+	font-size: 13px;
+}
+.list dl dd {
+	border-bottom: 1px solid #ddd;
+	margin: 0 5px;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.list dl dd .item-img {
+	overflow: hidden;
+	float: left;
+	width: 35%;
+	text-align: center;
+}
+.list dl dd .item-con {
+	float: left;
+	width: 65%;
+}
+.item-con h3 {
+	font-size: 13px;
+	height: 34px;
+	line-height: 17px;
+	margin: 10px 0 18px;
+	overflow: hidden;
+}
+.item-con .item-desc .price {
+	float: left;
+}
+.item-con .item-desc .buy-link {
+	float: right;
+}
+.item-desc .price-new {
+	color: #E60012;
+	font-size: 18px;
+}
+.item-desc .price-old {
+	color: #999;
+	text-decoration: line-through;
+}
+.buy-link input {
+	float: right;
+	width: 75px;
+	height: 30px;
+	color: #fff;
+	padding: 0;
+	border: none;
+	font-size: 14px;
+}
+.buy-link input.on {
+	background-color: #E60012;
+}
+.buy-link input.off {
+	background-color: #666;
+}
+.buy-link .sales {
+	clear: both;
+	color: #999;
+}
+.sales .percent {
+	display: inline-block;
+	width: 75px;
+	height: 5px;
+	border: 1px solid #E60012;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.sales .percent em {
+	display: block;
+	height: 5px;
+	background-color: #f66;
+}
+/*搜索结果*/
+.header.white .search-box {
+	background-color: #f2f2f2;
+}
+.header .search-box input {
+	float: left;
+	border: none;
+	width: 70%;
+	height: 28px;
+	background: transparent;
+	font-size: 14px;
+	color: #333;
+}
+.header .search-box i.del {
+	float: right;
+	margin: 6px;
+	background-position: -93px -67px;
+}
+.header .cancle {
+	float: right;
+	color: #999;
+	font-size: 14px;
+}
+.filter {
+	position: fixed;
+	top: 45px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	z-index: 20;
+}
+.filter ul {
+	overflow: hidden;
+}
+.filter ul li {
+	width: 24.7%;
+	float: left;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	position: relative;
+}
+.filter ul li:last-child {
+	border-right: none;
+}
+.filter ul li.on {
+	color: #E60012;
+}
+.filter ul li .drop-box {
+	display: inline-block;
+	vertical-align: top;
+	height: 30px;
+	padding: 5px 0;
+	position: absolute;
+	right: 5px;
+}
+.filter ul li em.drop-up {
+	display: block;
+	width: 0;
+	height: 0;
+	margin-bottom: 5px;
+	border: 6px solid;
+	border-color: transparent transparent #999 transparent;
+}
+.filter ul li em.drop-up.on {
+	border-bottom-color: #E60012;
+}
+.filter ul li em.drop-down {
+	display: block;
+	width: 0;
+	height: 0;
+	border: 6px solid;
+	border-color: #999 transparent transparent transparent;
+}
+.filter ul li em.drop-down.on {
+	border-top-color: #E60012;
+}
+.item-list.mt42 {
+	margin-top: 42px;
+}
+.item-list.pb31 {
+	padding-bottom: 31px;
+}
+.item-list {
+	padding: 0 10px;
+}
+.item-list ul li {
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+.item-list ul li:last-child {
+	border-bottom: none;
+}
+.item-list ul li .item-img {
+	float: left;
+	width: 35%;
+}
+.item-img .posi-rela {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: 8px 0;
+}
+.item-img .tags {
+	background: url(../images/zt_icon.png) 0 0 no-repeat;
+	background-size: 42px 208px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 42px;
+	height: 42px;
+}
+.item-img .tags.jijiangkaishi {
+	background-position: 0 0;
+}
+.item-img .tags.miaosha {
+	background-position: 0 -42px;
+}
+.item-img .tags.qianggou {
+	background-position: 0 -84px;
+}
+.item-img .tags.weikaishi {
+	background-position: 0 -126px;
+}
+.item-img .tags.qiangguang {
+	background-position: 0 -168px;
+}
+.item-list ul li .item-con {
+	float: left;
+	width: 65%;
+}
+.item-list .item-con h3 {
+	margin: 0;
+}
+.item-list .item-price {
+	margin-top: 10px;
+}
+.item-list .red {
+	color: #E60012;
+	font-size: 14px;
+}
+.item-list .time {
+	float: right;
+	margin-right: 5px;
+	line-height: 30px;
+}
+.item-list .time em {
+	background-color: #333;
+	padding: 3px;
+	border-radius: 3px;
+	color: #fff;
+}
+.item-list .tips .fl {
+	float: left;
+	line-height: 30px;
+	font-size: 13px;
+}
+.item-list .tips .start-time {
+	float: right;
+	line-height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.item-list .more {
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	border-top: 1px solid #ddd;
+}
+.item-list .more i {
+	display: block;
+	width: 26px;
+	height: 22px;
+	margin: 4px auto;
+	background-position: -130px -172px;
+}
+.back-top {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 1;
+}
+.back-top i {
+	display: block;
+	width: 61px;
+	height: 61px;
+	background-position: -65px -172px;
+}
+/*搜索*/
+.search-block {
+	position: relative;
+	margin-bottom: 20px;
+}
+.search-block.border-t {
+	border-top: 5px solid #ccc;
+}
+.search-block h4 {
+	font-size: 15px;
+	margin-left: 10px;
+	line-height: 30px;
+}
+.search-block i.del {
+	width: 17px;
+	height: 17px;
+	background-position: -112px -127px;
+	position: absolute;
+	top: 6px;
+	right: 10px;
+}
+.search-block .search-key {
+	overflow: hidden;
+	margin: 0 10px;
+}
+.search-key li {
+	float: left;
+	padding: 7px 10px;
+	font-size: 14px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	text-align: center;
+	margin: 5px;
+}
+/*公告列表*/
+.msg-list.pb31 {
+	padding-bottom: 31px;
+}
+.msg-list li {
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	overflow: hidden;
+}
+.msg-list li:nth-child(2n) {
+	background-color: #f2f2f2;
+}
+.msg-list li .notice-tit {
+	width: 100%;
+	overflow: hidden;
+	overflow-wrap: normal;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.notice-tit .red {
+	color: #f60;
+	font-weight: bold;
+	font-size: 13px;
+	margin-right: 5px;
+}
+.msg-list li .date {
+	color: #666;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+}
+.msg-list .more {
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	border-top: 1px solid #ddd;
+}
+.msg-list .more i {
+	display: block;
+	width: 26px;
+	height: 22px;
+	margin: 4px auto;
+	background-position: -130px -172px;
+}
+.notice-detail {
+	margin: 15px;
+	font-size: 14px;
+}
+/*优惠券*/
+.coupon-list li {
+	padding: 10px;
+	overflow: hidden;
+}
+.coupon-list li:nth-child(2n) {
+	background-color: #f2f2f2;
+}
+.coupon-list li .coupon-img {
+	float: left;
+	overflow: hidden;
+	width: 10px;
+	height: 79px;
+	background: url(../images/coupon2.png) 0 0 no-repeat;
+	background-size: 10px 79px;
+	margin: 3px 10px 0 0;
+}
+.coupon-list li .coupon-img span {
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 12px;
+}
+.coupon-list .coupon-text {
+	float: left;
+	width: 75%;
+}
+.coupon-list .coupon-text p {
+	color: #999;
+	font-size: 13px;
+	line-height: 20px;
+	width: 100%;
+	overflow: hidden;
+	overflow-wrap: normal;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.coupon-list .coupon-text p.tit {
+	color: #666;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+}
+.coupon-list .buy-link {
+	float: right;
+	overflow: hidden;
+	margin: 20px 0;
+}
+.coupon-list .buy-link input {
+	width: 55px;
+}
+.error-fixed {
+	position: fixed;
+	top: 45px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+.error-fixed p {
+	overflow: hidden;
+	overflow-wrap: normal;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 12px;
+}
+/*分类*/
+.sort-left {
+	box-sizing: border-box;
+	float: left;
+	width: 24%;
+	overflow-y: scroll;
+}
+.sort-left ul li {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+	background-color: #fff;
+	border-bottom: 2px solid #f2f2f2;
+}
+.sort-left ul li.cur {
+	background-color: #f2f2f2;
+}
+.sort-left ul li a {
+	display: block;
+}
+.sort-right {
+	box-sizing: border-box;
+	float: left;
+	width: 75%;
+	padding: 0 5px;
+	overflow-y: scroll;
+	font-size: 14px;
+}
+.sort-right .sort-box h4 {
+	font-weight: bold;
+	line-height: 30px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.sort-box .sort-list {
+	background-color: #fff;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.sort-list ul {
+	overflow: hidden;
+	padding: 10px 0;
+}
+.sort-list ul li {
+	width: 33%;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.sort-list ul li.special {
+	line-height: 18px;
+}
+.sort-list ul li a {
+	display: block;
+	width: 100%;
+	height: 35px;
+}
+/*页面内容为空*/
+.empty-img {
+	position: absolute;
+	margin-top: -90px;
+	left: 50%;
+	margin-left: -57px;
+	width: 116px;
+	height: 180px;
+	top: 50%;
+}
+.empty-text {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.empty-text span {
+	display: block;
+}
+/*商品详情*/
+.goods-detail-swiper .swiper-pagination-bullet-active {
+	background-color: #E60012;
+}
+.head-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 55px;
+	z-index: 5;
+}
+.head-link a.back {
+	float: left;
+	margin: 10px;
+	height: 36px;
+}
+.head-link a.back i {
+	width: 36px;
+	height: 36px;
+	background-position: -205px -172px;
+}
+.head-link .fr {
+	float: right;
+}
+.head-link a.cart, .head-link a.other {
+	float: left;
+	margin: 10px 5px;
+	height: 36px;
+}
+.head-link a.cart i {
+	width: 36px;
+	height: 36px;
+	background-position: -160px -232px;
+}
+.head-link a.other i {
+	width: 36px;
+	height: 36px;
+	background-position: -2px -232px;
+}
+.head-link .other-link {
+	position: absolute;
+	right: 5px;
+	top: 55px;
+	width: 125px;
+	height: 150px;
+	background: url(../images/other-link.png) 0 0 no-repeat;
+	background-size: 125px 150px;
+	padding: 20px 5px 0;
+}
+.head-link .other-link a {
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+}
+.head-link .other-link a:last-child {
+	border-bottom: none;
+}
+.head-link .other-link a i {
+	width: 25px;
+	height: 25px;
+	margin: 9px 25px 0 10px;
+	float: left;
+}
+.head-link .other-link .msg i {
+	background-position: -225px -99px;
+}
+.head-link .other-link .index i {
+	background-position: -194px -99px;
+}
+.head-link .other-link .me i {
+	background-position: -3px -128px;
+}
+.goods-price {
+	height: 50px;
+	background: url(../images/goods-price-bg.png) 0 0 repeat-y;
+	background-size: contain;
+	color: #fff;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.goods-price label {
+	display: block;
+	font-size: 14px;
+}
+.goods-price .price-new {
+	font-size: 20px;
+	font-weight: bold;
+}
+.goods-price .price-old {
+	font-size: 14px;
+	text-decoration: line-through;
+	margin-left: 10px;
+}
+.goods-price .fl {
+	float: left;
+}
+.goods-price .start-time {
+	float: right;
+	font-size: 14px;
+	height: 50px;
+	line-height: 75px;
+}
+.goods-price .end-time {
+	float: right;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+}
+.goods-price .end-time em {
+	background-color: #333;
+	padding: 3px;
+	border-radius: 3px;
+	color: #fff;
+}
+.goods-name {
+	background-color: #fff;
+	height: 83px;
+	padding: 3px 10px;
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 5px;
+}
+.goods-name p.name {
+	font-size: 18px;
+	height: 55px;
+	overflow: hidden;
+}
+.goods-name span {
+	font-size: 14px;
+	color: #666;
+}
+.goods-name span.fr {
+	float: right;
+	color: #f60;
+}
+.goods-name span.center {
+	position: absolute;
+	left: 40%;
+}
+.goods-sel {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	font-size: 14px;
+	padding: 0 10px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.goods-sel label {
+	margin-right: 20px;
+}
+.goods-sel .icon-right {
+	height: 45px;
+	left: auto;
+	right: 15px;
+}
+.goods-comment h4, .goods-detail h4 {
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+}
+.comment-box {
+	background-color: #fff;
+	padding: 0 10px;
+	font-size: 14px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.comment-box .tit {
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.comment-box .tit .icon-right {
+	height: 30px;
+	left: auto;
+	right: 5px;
+}
+.comment-box .con .head {
+	overflow: hidden;
+	padding: 10px 5px;
+	height: 41px;
+	font-size: 12px;
+}
+.comment-box .con .head i.sprites {
+	float: left;
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	background-position: -255px -3px;
+}
+.comment-box .user-name {
+	line-height: 25px;
+	margin-right: 5px;
+}
+.level {
+	float: right;
+	height: 16px;
+	margin: 4px 0;
+}
+.level .xing1 {
+	display: inline-block;
+	width: 19px;
+	height: 16px;
+	background: url(../images/x1.png) right top no-repeat;
+	background-size: 38px 16px;
+}
+.level .xing1.on {
+	background-position: left top;
+}
+.comment-box .comment-text {
+	margin: 0 5px 10px;
+}
+.goods-detail .detail-img img {
+	width: 100%;
+	display: block;
+}
+.goods-btn {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 49px;
+	overflow: hidden;
+}
+.goods-btn .star {
+	float: left;
+	width: 20%;
+	height: 50px;
+	background-color: #fff;
+}
+.goods-btn .star i {
+	display: block;
+	margin: 3px auto 0;
+	width: 31px;
+	height: 31px;
+	background-position: -44px -237px;
+}
+.goods-btn .star.on i {
+	background-position: -78px -237px;
+}
+.goods-btn .star span {
+	display: block;
+	text-align: center;
+}
+.goods-btn .star.on span {
+	color: #ff5151;
+}
+.goods-btn input {
+	float: left;
+	width: 40%;
+	height: 50px;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	padding: 0;
+}
+.goods-btn input.add-cart {
+	background-color: #f19c38;
+}
+.goods-btn input.buy {
+	background-color: #E60012;
+}
+.goods-btn input.buy.only {
+	width: 80%;
+}
+.goods-btn input.buy.gray {
+	background-color: #666;
+}
+.back-top.btm60 {
+	bottom: 60px;
+}
+.sel-modal {
+	display: none;
+	box-sizing: border-box;
+	width: 100%;
+	height: 400px;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 201;
+}
+.sel-modal i.close {
+	width: 25px;
+	height: 25px;
+	background-position: 3px 3px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.sel-modal .goods-intro {
+	height: 100px;
+	position: relative;
+	top: 0;
+	border-bottom: 1px solid #ddd;
+	margin: 0 5px;
+}
+.sel-modal .goods-intro .img {
+	position: relative;
+	top: -25px;
+	left: 5%;
+	width: 33%;
+	float: left;
+}
+.sel-modal .goods-intro .img img {
+	border: 1px solid #ddd;
+}
+.sel-modal .goods-intro .price-name {
+	float: left;
+	width: 60%;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.price-name .price {
+	color: #E60012;
+	font-size: 14px;
+}
+.price-name .price em {
+	font-size: 20px;
+	font-weight: bold;
+}
+.price-name .name {
+	font-size: 16px;
+	height: 47px;
+	overflow: hidden;
+}
+.sel-modal .scroll-y {
+	height: 243px;
+	overflow-y: scroll;
+	clear: both;
+}
+.sel-modal .sel-list {
+	border-bottom: 1px solid #ddd;
+	padding: 0 5%;
+	margin: 0 5px;
+	font-size: 14px;
+}
+.sel-modal .sel-list dl {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.sel-modal .sel-list dl dt {
+	margin-bottom: 5px;
+}
+.sel-modal .sel-list dl dd {
+	float: left;
+	color: #666;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	padding: 5px;
+	height: 30px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.sel-modal .sel-list dl dd.on {
+	color: #fff;
+	background-color: #E60012;
+}
+.sel-modal .sel-addr {
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	overflow: hidden;
+	line-height: 25px;
+}
+.sel-modal .sel-addr .addr-selected {
+	overflow: hidden;
+	padding: 5px 5%;
+}
+.sel-modal .sel-addr label {
+	display: block;
+}
+.sel-modal .sel-addr .addr-detail {
+	float: left;
+	position: relative;
+}
+.sel-modal .sel-addr .icon-down {
+	position: relative;
+	left: auto;
+	margin: 0 10px;
+	height: 20px;
+	vertical-align: middle;
+}
+.sel-modal .sel-addr .stock {
+	float: right;
+	color: #ff9913;
+}
+.sel-modal .addr-open {
+	background-color: #f2f2f2;
+	border-top: 1px solid #ddd;
+	font-size: 12px;
+}
+.addr-open .tit {
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+.addr-open .tit li {
+	float: left;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+.addr-open .tit li.cur {
+	color: #E60012;
+	border-bottom: 1px solid #E60012;
+}
+.addr-open .con {
+	padding-left: 10px;
+}
+.sel-modal .goods-num {
+	padding-left: 5%;
+	font-size: 14px;
+	line-height: 35px;
+	overflow: hidden;
+}
+.sel-modal .goods-num label {
+	float: left;
+}
+.sel-modal .goods-num .fl {
+	float: left;
+}
+.sel-modal .goods-num .num {
+	float: left;
+	width: 32px;
+	height: 22px;
+	line-height: 22px;
+	vertical-align: top;
+	margin-top: 6px;
+	border: none;
+	padding: 0;
+	margin-right: 5px;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.sel-modal .goods-num span {
+	float: left;
+	width: 32px;
+	height: 22px;
+	margin-right: 5px;
+	margin-top: 6px;
+}
+.sel-modal .goods-num .jian {
+	background: url(../images/jian.png) 0 0 no-repeat #f2f2f2;
+	background-size: 32px 22px;
+}
+.sel-modal .goods-num .jia {
+	background: url(../images/jia.png) 0 0 no-repeat #f2f2f2;
+	background-size: 32px 22px;
+}
+.sel-modal .sel-btn {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+.sel-modal .sel-btn input {
+	width: 100%;
+	height: 50px;
+	border: none;
+	padding: 0;
+	color: #fff;
+	font-size: 16px;
+}
+.sel-modal .sel-btn input.yes {
+	background: url(../images/goods-price-bg.png) 0 0 repeat-y;
+	background-size: contain;
+}
+.sel-modal .sel-btn input.gray {
+	background-color: #999;
+}
+.add-cart-modal {
+	display: none;
+	width: 80%;
+	height: 100px;
+	position: fixed;
+	top: 50%;
+	margin-top: -50px;
+	left: 10%;
+	background-color: #fff;
+	z-index: 201;
+}
+.add-cart-modal .cart-msg {
+	height: 60px;
+	text-align: center;
+}
+.add-cart-modal .cart-msg p {
+	font-size: 14px;
+	color: #396;
+	line-height: 60px;
+	margin: 0;
+}
+.add-cart-modal .cart-btn {
+	height: 40px;
+	overflow: hidden;
+}
+.add-cart-modal .cart-btn input {
+	float: left;
+	width: 50%;
+	height: 40px;
+	padding: 0;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+}
+.add-cart-modal .cart-btn input.gray {
+	background-color: #999;
+}
+.add-cart-modal .cart-btn input.red {
+	background-color: #E60012;
+}
+/*查看所有评论*/
+.comment-goods {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	height: 94px;
+	overflow: hidden;
+}
+.comment-goods .img {
+	float: left;
+	width: 25%;
+	margin: 15px;
+}
+.comment-goods .img img {
+	display: block;
+}
+.comment-goods .name-level {
+	float: left;
+	width: 65%;
+}
+.comment-goods .name-level .name {
+	font-size: 16px;
+	height: 50px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.comment-goods .level {
+	float: left;
+}
+.appmsg_editor {
+	position: relative;
+	margin-bottom: 10px;
+}
+.appmsg_editor .inner {
+	background-color: #e4e4e4;
+	color: #666;
+	margin: 8px auto 0;
+	padding: 5px;
+	width: 96%;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.appmsg_editor .arrow_out {
+	border-color: transparent transparent #e4e4e4;
+	border-style: dashed dashed solid;
+	border-width: 7px;
+	display: inline-block;
+	height: 0;
+	left: 35px;
+	top: -14px;
+	width: 0;
+	margin-top: 0;
+}
+.appmsg_editor .arrow {
+	position: absolute;
+	z-index: 9;
+}
+/*我的-优惠券*/
+.coupon-status {
+	position: fixed;
+	top: 45px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+}
+.coupon-status ul {
+	overflow: hidden;
+}
+.coupon-status ul li {
+	float: left;
+	width: 25%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+.coupon-status ul li span {
+	display: block;
+	margin: 0px 15px;
+	padding: 0 10px;
+	height: 40px;
+}
+.coupon-status ul li.cur span {
+	color: #E60012;
+	border-bottom: 3px solid #E60012;
+}
+.coupon-list.mt40 {
+	margin-top: 40px;
+}
+/*购物车*/
+i.check {
+	width: 18px;
+	height: 18px;
+	background-position: right -233px;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+i.check.checked {
+	background-position: right bottom;
+}
+dt.store-tit {
+	overflow: hidden;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	padding-left: 5px;
+}
+dt.store-tit i.store {
+	width: 26px;
+	height: 26px;
+	background-position: -112px bottom;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+dt.store-tit span {
+	font-size: 14px;
+}
+.goods-list {
+	padding-left: 5px;
+}
+.goods-list i.check {
+	float: left;
+	margin-top: 37px;
+}
+.goods-list .item-box {
+	display: inline-block;
+	width: 91%;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+}
+.goods-list .item-img {
+	float: left;
+	width: 27%;
+	margin-top: 5px;
+}
+.goods-list .item-con {
+	float: right;
+	width: 73%;
+}
+.goods-list .num-link {
+	float: right;
+	position: relative;
+}
+.num-link > em {
+	position: absolute;
+	right: 3px;
+	top: -14px;
+	z-index: 1;
+	color: #f90;
+}
+.goods-list .num-link span {
+	float: left;
+	width: 25px;
+	height: 22px;
+	margin-right: 2px;
+	margin-top: 4px;
+}
+.goods-list .num-link .jian {
+	background: url(../images/jian-white.png) 0 0 no-repeat #999;
+	background-size: 26px 22px;
+}
+.goods-list .num-link .jia {
+	background: url(../images/jia-white.png) 0 0 no-repeat #999;
+	background-size: 26px 22px;
+}
+.goods-list .item-desc .num-link .num {
+	float: left;
+	width: 32px;
+	height: 22px;
+	line-height: 22px;
+	vertical-align: top;
+	margin-top: 4px;
+	border: none;
+	padding: 0;
+	margin-right: 2px;
+	margin-left: 0;
+	background-color: #999;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+}
+.property em {
+	margin-right: 8px;
+	color: #666;
+}
+.goods-off .store-tit span {
+	background-color: #999;
+	color: #fff;
+	padding: 3px 10px;
+	border-radius: 5px;
+	margin-left: 28px;
+}
+.goods-off .store-tit a {
+	float: right;
+	color: #f90;
+	font-size: 14px;
+	margin-right: 25px;
+}
+.goods-off .goods-list .item-box {
+	margin-left: 28px;
+}
+.goods-off .off-text {
+	color: #E60012;
+	float: right;
+	font-size: 14px;
+	line-height: 30px;
+	margin-right: 20px;
+}
+.cart-btm {
+	position: fixed;
+	bottom: 55px;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	font-size: 18px;
+}
+.cart-btm .all-check {
+	float: left;
+	padding-left: 5px;
+}
+.cart-btm .all-check span {
+	vertical-align: middle;
+	font-size: 14px;
+}
+.cart-btm .btn {
+	float: right;
+	width: 35%;
+}
+.cart-btm .btn .del {
+	float: left;
+	color: #fff;
+	background-color: #666;
+	border: none;
+	width: 40%;
+	height: 50px;
+}
+.cart-btm .btn .checkout {
+	float: left;
+	color: #fff;
+	background-color: #E60012;
+	border: none;
+	width: 60%;
+	height: 50px;
+}
+.cart-btm .price {
+	float: right;
+	margin-right: 5px;
+}
+.cart-btm .price .price-num {
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+}
+.cart-btm .price .price-num em {
+	font-size: 18px;
+	color: #E60012;
+}
+.cart-btm .price p.f12 {
+	font-size: 12px;
+	color: #666;
+	height: 20px;
+	line-height: 14px;
+}
+/*订单确认*/
+.receiver {
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+	font-size: 14px;
+	padding: 10px 0;
+	margin-bottom: 5px;
+}
+.receiver i.local {
+	width: 21px;
+	height: 21px;
+	background-position: -149px -2px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	margin-top: -10px;
+}
+.receiver a.address {
+	float: left;
+	width: 80%;
+	margin-left: 40px;
+}
+.receiver .address .mb10 {
+	margin-bottom: 10px;
+}
+.receiver .address .mb10 em {
+	float: right;
+}
+.receiver i.icon-right {
+	left: auto;
+	right: 10px;
+	top: 50%;
+	margin-top: -18px;
+}
+.order-detail {
+	margin-bottom: 5px;
+}
+.order-detail .goods-list {
+	padding: 0 10px;
+}
+.order-detail .goods-list .item-box {
+	width: 100%;
+}
+.order-detail .goods-list .item-img {
+	width: 35%;
+}
+.order-detail .goods-list .item-con {
+	width: 65%;
+}
+.order-detail .item-desc .price-new {
+	float: left;
+}
+.order-detail .item-desc .num {
+	float: left;
+	color: #999;
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.order-detail .off-text {
+	color: #f60;
+	float: right;
+	font-size: 14px;
+	line-height: 30px;
+	margin-right: 20px;
+}
+.order-sum {
+	background-color: #fff;
+	font-size: 14px;
+}
+.order-sum p {
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	position: relative;
+}
+.order-sum p label {
+	float: left;
+}
+.order-sum p span {
+	float: right;
+}
+.order-sum p span.gray {
+	color: #999;
+	margin-right: 15px;
+}
+.order-sum p .icon-right {
+	height: 40px;
+	left: auto;
+	right: 10px;
+}
+.order-sum p span em {
+	font-size: 18px;
+	color: #E60012;
+}
+.confirm-sum {
+	margin-bottom: 45px;
+	background-color: #fff;
+	font-size: 14px;
+}
+.confirm-sum p {
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	position: relative;
+}
+.confirm-sum p label {
+	float: left;
+}
+.confirm-sum p span.gray {
+	float: right;
+	color: #999;
+	margin-right: 15px;
+}
+.confirm-sum p .icon-right {
+	height: 40px;
+	left: auto;
+	right: 10px;
+}
+.confirm-sum p.last-price {
+	line-height: 25px;
+	height: 70px;
+	padding: 10px;
+}
+.confirm-sum p.last-price span {
+	display: block;
+	word-break: break-all;
+}
+.confirm-sum p span em {
+	font-size: 18px;
+	color: #E60012;
+}
+.all_xz {
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	border-top: 1px solid #ddd;
+	font-size: 15px;
+	background-color: #fff;
+}
+.all_xz a {
+	width: 40%;
+	height: 45px;
+	float: right;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+}
+.all_xz .a-tj {
+	background: #E60012;
+}
+.all_xz .a-wh {
+	background: #999;
+}
+.date-sel-modal, .receipt-modal {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 475px;
+	overflow-y: scroll;
+	background-color: #f5f5f5;
+	padding-bottom: 45px;
+	z-index: 201;
+}
+.receipt-modal.no-receipt {
+	height: auto;
+}
+.receipt-modal.no-receipt .receipt-sel {
+	margin-bottom: 10px;
+}
+.date-sel-modal .modal-title, .receipt-modal .modal-title {
+	float: left;
+	margin: 0 10px;
+	color: #333;
+	font-size: 14px;
+	line-height: 30px;
+}
+.date-sel-modal .date-sel {
+	clear: both;
+	overflow: hidden;
+	margin: 0 10px 10px;
+}
+.date-sel-modal .date-sel li {
+	float: left;
+	width: 18%;
+	height: 60px;
+	text-align: center;
+	margin: 1%;
+	padding: 5px 0;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+.date-sel-modal .date-sel li.on {
+	border: 1px solid #E60012;
+	color: #E60012;
+}
+.date-sel-modal .date-sel li span {
+	display: block;
+	width: 100%;
+	line-height: 25px;
+}
+.modal-body .tips {
+	margin: 10px;
+}
+.modal-body .title-tips {
+	color: #E60012;
+	float: left;
+	line-height: 30px;
+}
+.modal-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background-color: #fff;
+}
+.modal-footer input {
+	width: 100%;
+	height: 45px;
+	padding: 0;
+	color: #333;
+	font-size: 15px;
+	background-color: #fff;
+	border: none;
+}
+.receipt-modal .receipt-sel {
+	clear: both;
+	overflow: hidden;
+	margin: 0 10px;
+}
+.receipt-modal span.sel {
+	float: left;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	background-color: #fff;
+	color: #666;
+	margin-right: 20px;
+	padding: 0;
+}
+.receipt-modal span.sel.on {
+	border: 1px solid #E60012;
+	color: #E60012;
+}
+.receipt-modal .type-sel, .receipt-modal .name, .receipt-modal .receipt-con {
+	clear: both;
+	overflow: hidden;
+	margin: 0 10px;
+}
+.receipt-modal .type-sel p {
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 0;
+}
+.receipt-modal .name input {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 5px;
+	border: none;
+}
+.receipt-modal .receipt-tips {
+	margin: 20px 10px 10px;
+}
+.receipt-modal .receipt-tips p {
+	margin-bottom: 0;
+	color: #666;
+	font-size: 12px;
+}
+/*支付成功*/
+.success-img {
+	margin: 55px auto 10px;
+	width: 65px;
+	height: 65px;
+}
+.success-text {
+	margin-bottom: 20px;
+}
+.success-text p {
+	text-align: center;
+	color: #333;
+}
+.success-text .f20 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.success-text .f14 {
+	font-size: 14px;
+}
+.success-btn {
+	text-align: center;
+}
+.success-btn input {
+	width: 135px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+	padding: 0;
+	margin: 0 10px;
+}
+.success-btn input.red {
+	background-color: #E60012;
+}
+.success-btn input.orange {
+	background-color: #f60;
+}
