@@ -134,7 +134,6 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 }
 .header {
 	background: rgba(51,51,51,.5);
-	padding: 0 10px;
 	height: 45px;
 	position: relative;
 	line-height: 45px;
@@ -143,6 +142,21 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	z-index: 1;
 	font-family: 微软雅黑;
 	overflow: hidden;
+}
+.header .city {
+	 background: rgba(0, 0, 0, 0) url(../images/dq.png) no-repeat scroll 0 center / 30px 25px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 14px;
+    max-width: 85px;
+    overflow: hidden;
+    overflow-wrap: normal;
+    padding-left: 28px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 85px;
 }
 .header.red {
 	background-color: #E60012;
@@ -200,13 +214,15 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	border-top: none;
 	border-right: none;
 }
+
 .header .search-box {
-	float: left;
-	width: 85%;
-	height: 30px;
-	background-color: #fff;
-	border-radius: 100px;
-	margin: 7px 0;
+    background-color: #fff;
+    border-radius: 100px;
+    height: 30px;
+    left: 50%;
+    margin: 7px 0 7px -20%;
+    position: absolute;
+    width: 55%;
 }
 .header .search-box i {
 	float: left;
@@ -217,13 +233,16 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 }
 .header a.msg {
 	float: right;
+    height: 45px;
+    width: 45px;
 }
 .header a.msg i {
-	float: right;
-	width: 28px;
-	height: 24px;
-	margin-top: 3px;
 	background-position: -221px -38px;
+    float: right;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: 12px;
+    width: 28px;
 }
 .header a.msg span {
 	color: #fff;
@@ -291,7 +310,7 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	position: relative;
 	text-align: center;
 	vertical-align: middle;
-	width: 20%;
+	width: 25%;
 }
 .footer a.cur {
 	color: #e51a29
@@ -566,3 +585,13 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 .bgfff {
 	background: #fff;
 }
+.slider-wrapper {
+	margin: 0 auto 5px;
+	width: 96%;
+}.slider-wrapper img {
+	display: block;
+	line-height: 1;
+	width: 100%;
+	height: auto;
+}
+.dx{ text-align: center; padding:8px 0 0; color:#666;}
