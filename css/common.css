@@ -214,15 +214,18 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
 	border-top: none;
 	border-right: none;
 }
-
 .header .search-box {
-    background-color: #fff;
-    border-radius: 100px;
-    height: 30px;
-    left: 50%;
-    margin: 7px 0 7px -20%;
-    position: absolute;
-    width: 55%;
+  background-color: #fff;
+  border-radius: 100px;
+  color: #666;
+  height: 30px;
+  left: 50%;
+  line-height: 30px;
+  margin: 7px 0 7px -23%;
+  position: absolute;
+  text-align: left;
+  width: 56%;
+  z-index: 1;
 }
 .header .search-box i {
 	float: left;

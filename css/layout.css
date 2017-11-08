@@ -52,6 +52,58 @@
 	float: left;
 	width: 65%;
 }
+.list .dt {
+	background-color: #666;
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.list .dt h5 {
+	float: left;
+	width: 35%;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 5px;
+	line-height: 30px;
+}
+.list .dt .time {
+	float: right;
+	margin-right: 5px;
+	line-height: 30px;
+}
+.list .dt .time em {
+	background-color: #333;
+	padding: 3px;
+	border-radius: 3px;
+}
+.list .dt .start-time {
+	float: left;
+	color: #fff;
+	line-height: 30px;
+	font-size: 13px;
+}
+.list .dd {
+	border-bottom: 1px solid #ddd;
+	margin: 0 5px;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.list .dd .item-img {
+	overflow: hidden;
+	float: left;
+	width: 35%;
+	text-align: center;
+}
+.list .dd .item-img img{
+	display: block;
+	margin: 0 auto;
+}
+.list .dd .item-con {
+	float: left;
+	width: 65%;
+}
 .item-con h3 {
 	font-size: 14px;
 	height: 34px;
